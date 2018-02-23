@@ -1,0 +1,140 @@
+
+.header{
+    background-color: FAFAFA;
+    width: 970px;
+}
+
+.header h1{
+    margin-right: 480px;
+    margin-left: 20px;
+    text-align: left;
+    display: inline;
+}
+
+.header h3{
+    text-align: right;
+    display: inline-block;
+    position: relative;
+}
+
+.middle_bot{
+    height:930px;
+    width: 930px;
+    background: radial-gradient(#443138, #1D0D11);
+    padding: 20px 20px 20px 20px;
+}
+
+.middle img{
+    max-width: 45%;
+    max-height: 45%;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.middle_box {
+    display:inline-block;
+    vertical-align: top;
+}
+
+.middle_box h3{
+    height: 20px;
+    width: 445px;
+    background-color: 8B8996;
+    padding: 15px;
+    margin: 0px;
+    display: inline-block;
+    color: FFFFFD;
+}
+
+.middle_box p,
+.middle_box a{
+    height: 207px;
+    width: 445px;
+    background-color: E8DEE7;
+    padding: 15px;
+    margin-top: 0px;
+}
+
+.bottom_left,
+.bottom_middle {
+    margin-right: 10px;
+}
+
+.bottom_left,
+.bottom_middle,
+.bottom_right {
+    width: 300px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.bottom_left h3,
+.bottom_middle h3,
+.bottom_right h3,
+.tech h4{
+    background-color: 8B8996;
+    max-width: 100%;
+    padding: 10px;
+    color: FFFFFD;
+    margin: 0px;
+}
+
+.my_photo{
+    max-width: 50%;
+    max-height: 50%;
+    padding: 10px;
+    background-color: E1D6E1;
+}
+
+.myself p{
+    padding: 10px;
+    height: 170px;
+    background: linear-gradient(90deg, #FEFEFE,#DBCCDA);
+    margin: 0px;
+}
+
+.mySelf img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.tech{
+    height: 200px;
+    background: linear-gradient(90deg, #FEFEFE,#DBCCDA);
+    margin: 0px;
+}
+
+.tech img{
+    max-width:20%;
+    max-height:20%;
+    margin: 10px 0px 0px 10px;
+}
+
+.tech button{
+    color: white;
+    background-color: green;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.end{
+    background-color: FAFAFA;
+}
+
+.end h5,
+.end p{
+    text-align: center;
+    margin: 10px;
+}
+
+.end a{
+    vertical-align: top;
+}
+
+.end img{
+    max-width:2%;
+    max-height:2%;
+}
