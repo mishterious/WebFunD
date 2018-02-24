@@ -1,0 +1,129 @@
+
+
+.header{
+    background-color: 265175;
+}
+
+.test_size a{
+    color: AE9D19;
+}
+
+.header h6{
+    width: 200px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    margin: 10px 0px 0px 700px;
+}
+
+.header_top img{
+    display: inline-block;
+    padding-right: 50px;
+    width: 30%;
+    margin: 0% 30% 0% 2%;
+    
+}
+
+.header_search {
+    width: 250px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    background-color: #444444;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+}
+
+.header_top input{
+    text-align: center;
+}
+
+.header_top button{
+    background-color:#265175;
+    color: white;
+    border-color: white;
+}
+
+.topnav{
+    background-color: #487EAB;
+    color: #FCFCFD;
+    padding: 10px 40px 10px 40px;
+    margin: 0px 50px 0px 50px;
+    border-radius: 5px;
+}
+
+.topnav h4{
+    margin: 10px 35px 10px 35px;
+    color: D2E0EA;
+    display:inline-block;
+}
+
+.mainmenu {
+    color: #E3C249;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mainmenu a{
+    color: #FCFCFD;
+}
+
+.mainright {
+    height:370px;
+    width: 620px;
+    display: inline-block;
+    text-align: center;
+}
+
+.mainright h3{
+    color: #EEC946;
+    font-style: italic;
+}
+
+.mainright h4{
+    color: #F4F6F8;
+}
+
+.middle{
+    text-align: center;
+}
+
+.middle a{
+    color: #81AFD7;
+}
+
+.middle_left,
+.middle_right{
+    border-top: 2px solid #75A8D3;
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 20px 10px 20px;
+}
+
+.end{
+    text-align: center;
+    height: 120px;
+    width: 1020px;
+    background: linear-gradient(90deg, #275378,#3673A7);
+}
+
+.end h3{
+    padding-top: 40px;
+    color: #7FB0DA;
+    display: inline-block;
+}
+
+.end h6{
+    color: #7FB0DA;
+    margin: 0px;
+}
+
