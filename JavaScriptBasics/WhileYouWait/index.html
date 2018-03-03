@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Birthday</title>
+    <script>
+       
+        
+        function bday(month, day){
+            var day = 60;
+            // for(var i=1; i<=day; i++){
+            //     if(month!= "Oct" || month!="Nov" || month!="Dec"){
+            //         console.log("You birthday is months away!");
+            //     }
+            //     else if(month ==="Oct" || month==="Nov"){
+            //         console.log("60");
+            //     }
+            // }
+            
+
+            for(var i=0; i<days; i++){
+                if(i>30){
+                    console.log(i+" Days left this is going to take a while :(");
+                } 
+                else if(i<=30 && i>5){
+                    console.log("Getting closer!! We're only " + i + " days away!!!");
+                }
+                else if(i<=5){
+                    console.log("ONLY "+i+" DAYS LEFT");
+                }
+            }
+
+            bday("Feb", 18);
+        }
+    </script>
+</head>
+<body>
+                
+</body>
+</html>

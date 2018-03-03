@@ -1,0 +1,104 @@
+
+
+
+.header img{
+    max-height: 10%;
+    max-width: 10%;
+    z-index: 3;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.header h1{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 0px;
+    font-family: Helvetica;
+    font-weight: normal;
+}
+
+.header h2{
+    color: #FFFFFF;
+    margin: 0px;
+    background-color: #306D9F;
+    background: linear-gradient(#275378,#5282AA, #275378);
+    font-family: Helvetics;
+    font-weight: normal; 
+    padding: 10px 10px 10px 20px;
+    z-index: 1;
+}
+
+.left_nav{
+    height: 700px;
+    width: 145px;
+    display: inline-block;
+}
+
+.button_watch {
+    width: 145px;
+    background: linear-gradient(90deg, #5F95BE, #2B6A9F); 
+    padding: 5px 20px 5px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.button_resources {
+    width: 145px;
+    height: 25px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #EAA552, #ED8016);
+    padding: 5px 20px 5px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.bottom_nav {
+    color: white;
+    margin: 10px 0px 0px 0px;
+    border-top: 1px solid grey;
+    padding: 10px 0px 0px 0px; 
+    background-position: center top;
+}
+
+.bottom_end {
+    background-image: url(images/ad_background.png);
+}
+
+.bottom_nav h4{
+    margin-bottom: 0px;
+    padding: 10px 10px 0px 10px;
+    font-weight: normal;
+    font-family: Helvetics;
+    text-align: center;
+}
+
+.bottom_nav img{
+    max-height: 50%;
+    max-width: 50%;
+    margin: 0px 35px 10px 35px;
+}
+
+.bottom_nav button{
+    color: white;
+    background: linear-gradient(90deg,#08C1DD, #7DD0DE);
+    border-radius: 3px;
+    border: 0px;
+    width: 120px;
+    margin: 0px 0px 20px 12px;
+}
+
+.main {
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main_pic{
+    max-height: 2%;
+    max-width: 2%;
+    display: inline-block;
+}
+
+.main h4{
+    display: inline-block;
+}

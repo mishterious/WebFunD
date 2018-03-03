@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Random Chance</title>
+    <script>
+        function randomChance(){
+            var quarter = 20;
+            
+            if(quarter > 0){
+                quarter -= 1;
+                if(Math.trunc(Math.random() * 100)+1 == 100){
+                    quarter = quarter + (Math.trunc(Math.random() * 50)+51);
+                    console.log(quarter);
+                }
+                else {
+                    console.log("Still losing!");
+                }
+            }
+
+        }
+        randomChance();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE>
+<html>
+<head></head>
+    <title>Starting jQuery</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="styles.css"></script>
+
+    <script type="text/javascript">
+
+    
+    $(document).ready(function(){
+
+        $('.clicker').click(function(){
+            console.log("Helloooo");
+        });
+
+        $('.hidden').click(function(){
+            $('p').hide();
+        });
+
+        $('.shower').click(function(){
+            $('p').show();
+        });
+
+        $('.toggler').click(function(){
+            $('p').toggle();
+        });
+
+        $('.slideDowner').click(function(){
+            $('p').slideDown('');
+        });
+
+        $('.slideUper').click(function(){
+            $('p').slideUp();
+        });
+
+        $('.slideToggler').click(function(){
+            $('p').slideToggle();
+        });
+
+        $('.fadeIner').click(function(){
+            $('p').fadeIn();
+        });
+
+        $('.fadeOuter').click(function(){
+            $('p').fadeOut();
+        });
+
+        $('.addClasser').click(function(){
+            $('p').addClass("Is actually working! I think...");
+        });
+
+        $('.beforeer').click(function(){
+            $('p').before("Hello, this is what happens before");
+        });
+
+        $('.afterer').click(function(){
+            $('p').after("after - we get this!");
+        });
+
+        $('.appender').click(function(){
+            $('p').append("Append and add this");
+        });
+
+        $('.htmler').click(function(){
+            $('p').html("<b>we're adding some HTML to this</b>");
+        });
+
+        $('.attrer').click(function(){
+            $('p').attr('class', 'MakingNewThings')
+        });
+
+        $('.valer').click(function(){
+            $('p').val();
+        });
+
+        $('.texter').click(function(){
+           $('.tax').text("<b>Did this just work?</b>");
+        });
+
+        $('.data').data('test', {first: 39, last: 'today!' });
+            $('#span1').text($ ('.data').data('test').first);
+            $('#span2').text($ ('.data').data('test').last);
+
+    });
+
+
+    </script>
+</head>
+<body>
+    <!-- <img class="main_pic" src="images/globle.png" alt=""> -->
+    <div >
+        <button class="clicker">.click</button>
+        <h4>Click</h4>
+        <p>Click that this is working!</p>
+    </div>    
+    <div>
+        <button class="hidden">.hide</button>
+        <h4>Hide</h4>
+        <p>Click the button to... </p>
+    </div>
+    <div>
+        <button class="shower">.show</button>
+        <h4>Show</h4>
+        <p>Click the button to... </p>
+    </div> 
+    <div>
+        <button class="toggler">.toggle</button>
+        <h4>Toggle</h4>
+        <p>Click the button to...Display or hide the matched elements. </p>   
+    </div>  
+    <div>
+        <button class="slideDowner">.slideDown</button>
+        <h4>SlideDown</h4>
+        <p>Click the button to... </p>
+    </div> 
+    <div>
+        <button class="slideUper">.slideUp</button>
+        <h4>SlideUp</h4>
+        <p>Click the button to... </p>
+    </div> 
+    <div>
+        <button class="slideToggler">.slideToggle</button>
+        <h4>SlideToggle</h4>
+        <p>Click the button to... </p>
+    </div> 
+    <div>
+        <button class="fadeIner">.fadeIn</button>
+        <h4>FadeIn</h4>
+        <p class="fadeIn">Fade in and fade out </p>
+    </div>     
+    <div>
+        <button class="fadeOuter">.fadeOut</button>
+        <h4>FadeOut</h4>
+        <p>Click the button to... </p>
+    </div> 
+    <div>
+        <button class="addClasser">.addClass</button>
+        <h4>AddClass</h4>
+        <p>Click the button to... </p>
+    </div>     
+    <div>
+        <button class="beforeer">.before</button>
+        <h4>Before</h4>
+        <p>Click the button to... </p>
+    </div> 
+        <button class="afterer">.after</button>
+        <h4>After</h4>
+        <p>Click the button to... </p>
+    <div>
+         <button class="appender">.append</button>
+         <h4>Append</h4>
+         <p>Click the button to... </p>
+    </div>
+    <div>
+        <button class="htmler">.html</button>
+        <h4>HTML</h4>
+        <p>Click the button to... </p>
+    </div>
+    <div> 
+        <button class="attrer">.attr</button>
+        <h4>Attr</h4>
+        <p title="NameOfMish">Click the button to... </p>
+    </div>
+    <div>
+        <button class="valer">.val</button>
+        <h4>Val</h4>
+        <p>Click the button to... </p>
+    </div>
+    <div>
+        <button class="texter">.text</button>
+        <h4>Text</h4>
+        <p class="tax">It's a lot of text I want here.</p>
+        
+    </div>
+    <div class="data">
+        Mish here
+        <span id="span1"></span>
+        Pizza
+        <span id="span2"></span>
+        Time for a change
+    </div>
+</body>
+</html>

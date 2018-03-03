@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Users</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript">
+        $(document).ready(function(){        
+            $(document).on('click', '.add', function(){
+                $('.first_name').append($('.first').val());
+                $('.last_name').append($('.last').val());
+                $('.email').append($('.em').val());
+                $('.numb').append($('.num').val());
+                return false;
+            });
+        });
+    </script>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email Address</th>
+                <th>Contact#</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="first_name"></td>
+                <td class="last_name"></td>
+                <td class="email"></td>
+                <td class="numb"></td>
+            </tr>
+        </tbody>        
+    </table>
+    <h1>Add User</h1>
+    <form action="">
+        <h5>
+            First Name: <input type="text" class="first" placeholder="First Name">
+        </h5>
+        <h5>
+            Last Name: <input type="text" class="last" placeholder="Last Name">
+        </h5>
+        <h5>
+            Email Address: <input type="text" class="em" placeholder="Email Address">
+        </h5>
+        <h5>
+            Contact No.: <input type="text" class="num" placeholder="Phone #">
+        </h5>
+        <button class="add">Add User</button>
+    </form>
+</body>
+</html>

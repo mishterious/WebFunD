@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Card</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script type="text/javascript">
+
+
+        $(document).ready(function(){
+            $(document).on("click", ".addUser", function(){
+                var f_name = $(".first_name").val();
+                var l_name = $(".last_name").val();
+                var description = $(".desc").val();
+                var myName = f_name+" "+ l_name;   
+
+                $(".cardList").append("<div class='card'><p class='covorName'>" + myName + "</p> <button class='back'>Click for description</button></div>");
+
+                $(".back").click(function(){
+                    $(".covorName").hide();
+                    $(".description").show();
+                    // "<p>"+ description + "</p>")
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="left">
+        <h5>
+            First Name: <input type="text" class="first_name">
+        </h5>
+        <h5>
+            Last Name: <input type="text" class="last_name">
+        </h5>
+        <h5>
+            Description:
+        </h5>
+        <textarea class="desc" rows="4" cols="50"></textarea>
+        <button class="addUser">Add User</button>
+    </div>
+    <div id="right" rows="4" cols="50">
+        <div class="cardList">
+            
+        </div>
+    </div>
+</body>
+</html>

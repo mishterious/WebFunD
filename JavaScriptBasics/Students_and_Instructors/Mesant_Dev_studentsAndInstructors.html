@@ -1,0 +1,51 @@
+<html>
+<head>
+	<script type="text/javascript">
+		var students = [ 
+		     {first_name :  'Michael', last_name : 'Jordan'},
+		     {first_name : 'John', last_name : 'Rosales'},
+		     {first_name : 'Mark', last_name : 'Guillen'},
+		     {first_name : 'KB', last_name : 'Tonel'}
+		]
+
+		for(student in students){
+			console.log(students[student].first_name + " " + students[student].last_name);
+		}
+
+		var users = {
+		 'Students': [ 
+		     {first_name:  'Michael', last_name : 'Jordan'},
+		     {first_name : 'John', last_name : 'Rosales'},
+		     {first_name : 'Mark', last_name : 'Guillen'},
+		     {first_name : 'KB', last_name : 'Tonel'}
+		  ],
+		 'Instructors': [
+		     {first_name : 'Michael', last_name : 'Choi'},
+		     {first_name : 'Martin', last_name : 'Puryear'}
+		  ]
+		 }
+
+
+
+		 for(people in users){
+		 	console.log(people);
+		 	if(people === "Students"){
+		 		for(var i=0; i<users['Students'].length; i++){
+		 			var count = i+1;
+		 			var nameLength = users['Students'][i].first_name.length + users.Students[i].last_name.length;
+		 			console.log(count + " - " + users['Students'][i].first_name + " " + users['Students'][i].last_name  + " - " + nameLength)
+		 		}
+		 	}
+		 	if(people === "Instructors"){
+		 		for(var i=0; i<users.Instructors.length; i++){
+		 			var count = i+1;
+		 			var nameLength = users.Instructors[i].first_name.length + users.Instructors[i].last_name.length;
+		 			console.log(count + " - " + users.Instructors[i].first_name + " " + users.Instructors[i].last_name + " - " + nameLength)
+		 		}
+		 	}
+		 }
+
+	</script>
+
+</head>
+</html>
